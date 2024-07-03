@@ -1,0 +1,267 @@
+/*import utl('https://fonts.googleapis.com/css2?family=roboto:wght@300;400;700&display=swap')*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto',sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+
+}
+main{
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: rgb(233, 232, 232);
+}
+.side-bar{
+    height: 100%;
+    width: 17%;
+    background-color: white;
+    overflow-y: hidden;
+}
+@media(max-width:768px){
+    .side-bar{
+        display: none;
+    }
+
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left #menu{
+    padding: 0 7px;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+
+}
+.search form{
+    display:flex;
+    border: 1px solid rgb(230, 227, 227);
+    height: 45px;
+}
+.search input{
+    width: 600px;
+    padding: 10px;
+    border: 0;
+    height: 100%;
+    border-radius: 2px 0 0 2px;
+}
+.input :focus{
+    outline: none;
+    border: 1px solid rgb(213, 211, 211);
+}
+.search button{
+    height: 100%;
+    width: 60px;
+    border: none;
+}
+.mic{
+    margin: 10px;
+}
+.material-icons{
+    color: rgb(100, 100,100);
+    padding: 0 7px;
+    cursor: pointer;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+
+}
+.nav-link span{
+    margin-left: 15px;
+}
+.nav-link:hover{
+    background:rgb(230, 227, 227);
+    cursor:pointer;
+}
+.active{
+    background:rgb(227, 221, 221);
+}
+hr{
+    height: 1px;
+    background-color: rgb(222, 219, 219);
+    border:none;
+}
+.content{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-top: 1px solid rgb(225, 225, 225);
+    overflow-y: scroll;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video{
+    width: 270px;
+    margin: 30px;
+}
+.matter img{
+    height: 230px;
+    width:410;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.matter p{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.matter span{
+    text-decoration:none;
+    color: rgb(51, 169, 233);
+    font: 12px;
+
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video bbb{
+    width: 270px;
+    margin: 30px;
+}
+.bushra img{
+    height: 230px;
+    width: 420;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.bushra p{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.bushra span{
+    text-decoration: none;
+    color: rgb(51, 169, 233);
+    font: 12px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video ccc{
+    width: 270px;
+    margin: 30px;
+}
+.images img{
+    height: 230px;
+    width: 420;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.images p{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.images span{
+    text-decoration: none;
+    color: rgb(51, 169, 233);
+    font: 12px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video ddd{
+    width: 260px;
+    margin: 30px;
+}
+.pictures img{
+    height: 230px;
+    width: 420;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.pictures p{
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+.pictures span{
+    text-decoration: none;
+    color: rgb(51, 169, 233);
+    font: 12px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+video eee{
+    width: 270px;
+    margin: 30px;
+}
+.photo img{
+    height: 230px;
+    width: 420;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.photo p{
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+.photo span{
+    text-decoration: none;
+    color: rgb(51, 169, 233);
+    font: 12px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video fff{
+    width: 270px;
+    margin: 30px;
+}
+.project img{
+    height: 230px;
+    width: 420;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.project p{
+    margin-left: 25px;
+    margin-top: 5px;
+
+}
+.project span{
+    text-decoration: none;
+    color: rgb(51, 169, 233);
+    font: 12px;
+}
